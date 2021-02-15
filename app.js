@@ -151,7 +151,7 @@ let Lima	 ={
    avgcookies:4.6,
    cookiesperhour:[],
 
-
+  
     cookies:function(){
     let mainEl=document.getElementById('main-container')
     let header2 = document.createElement('h2')
