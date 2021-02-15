@@ -1,6 +1,6 @@
 'use strict'
 
-let customershourly =['6 am','7 am','8 am','9 am','10 am','11 am','12 pm','1 pm','2 pm','3 pm','4 pm','5 pm','6 pm','7 pm'];
+let customersHourly =['6 am','7 am','8 am','9 am','10 am','11 am','12 pm','1 pm','2 pm','3 pm','4 pm','5 pm','6 pm','7 pm'];
 
 let seattle ={
 
@@ -19,12 +19,12 @@ let seattle ={
     mainEl.appendChild(ulEl)
 
     let total = 0;
-    for(let i = 0; i< customershourly.length;i++)
+    for(let i = 0; i< customersHourly.length;i++)
     {
     this.cookiesperhour.push(Math.floor(Math.floor((Math.random() * (this.max - this.min + 1) + this.min)*this.avgcookies)));
     let liEl=document.createElement('li')
     ulEl.appendChild(liEl)
-    liEl.textContent=`${customershourly[i]}: ${this.cookiesperhour[i]} cookies`
+    liEl.textContent=`${customersHourly[i]}: ${this.cookiesperhour[i]} cookies`
     total=total+this.cookiesperhour[i]
     }
     let liEl=document.createElement('li')
@@ -55,12 +55,12 @@ let Tokyo	 ={
     mainEl.appendChild(ulEl)
 
     let total = 0;
-    for(let i = 0; i< customershourly.length;i++)
+    for(let i = 0; i< customersHourly.length;i++)
     {
     this.cookiesperhour.push(Math.floor(Math.floor((Math.random() * (this.max - this.min + 1) + this.min)*this.avgcookies)));
     let liEl=document.createElement('li')
     ulEl.appendChild(liEl)
-    liEl.textContent=`${customershourly[i]}: ${this.cookiesperhour[i]} cookies`
+    liEl.textContent=`${customersHourly[i]}: ${this.cookiesperhour[i]} cookies`
     total=total+this.cookiesperhour[i]
     }
     let liEl=document.createElement('li')
@@ -90,12 +90,12 @@ let Dubai	 ={
     mainEl.appendChild(ulEl)
 
     let total = 0;
-    for(let i = 0; i< customershourly.length;i++)
+    for(let i = 0; i< customersHourly.length;i++)
     {
     this.cookiesperhour.push(Math.floor(Math.floor((Math.random() * (this.max - this.min + 1) + this.min)*this.avgcookies)));
     let liEl=document.createElement('li')
     ulEl.appendChild(liEl)
-    liEl.textContent=`${customershourly[i]}: ${this.cookiesperhour[i]} cookies`
+    liEl.textContent=`${customersHourly[i]}: ${this.cookiesperhour[i]} cookies`
     total=total+this.cookiesperhour[i]
     }
     let liEl=document.createElement('li')
@@ -125,12 +125,12 @@ let Paris	 ={
     mainEl.appendChild(ulEl)
 
     let total = 0;
-    for(let i = 0; i< customershourly.length;i++)
+    for(let i = 0; i< customersHourly.length;i++)
     {
     this.cookiesperhour.push(Math.floor(Math.floor((Math.random() * (this.max - this.min + 1) + this.min)*this.avgcookies)));
     let liEl=document.createElement('li')
     ulEl.appendChild(liEl)
-    liEl.textContent=`${customershourly[i]}: ${this.cookiesperhour[i]} cookies`
+    liEl.textContent=`${customersHourly[i]}: ${this.cookiesperhour[i]} cookies`
     total=total+this.cookiesperhour[i]
     }
     let liEl=document.createElement('li')
@@ -161,12 +161,12 @@ let Lima	 ={
     mainEl.appendChild(ulEl)
 
     let total = 0;
-    for(let i = 0; i< customershourly.length;i++)
+    for(let i = 0; i< customersHourly.length;i++)
     {
     this.cookiesperhour.push(Math.floor(Math.floor((Math.random() * (this.max - this.min + 1) + this.min)*this.avgcookies)));
     let liEl=document.createElement('li')
     ulEl.appendChild(liEl)
-    liEl.textContent=`${customershourly[i]}: ${this.cookiesperhour[i]} cookies`
+    liEl.textContent=`${customersHourly[i]}: ${this.cookiesperhour[i]} cookies`
     total=total+this.cookiesperhour[i]
     }
     let liEl=document.createElement('li')
